@@ -23,6 +23,9 @@ body{
     font-size: 16px;
     line-height: 24px;
  }
+ .text-align{
+    text-align: center;
+ }
  .btn{
     background-color: #006A50;
     color: #FFFFFF;
@@ -159,3 +162,50 @@ body{
 .satelite-div-type1{
     flex-direction: row-reverse;
 }
+/* donate style */
+.donate-amount-cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.amount-card{
+    padding: 40px 40px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.80);
+}
+.amount-card:hover{
+    background-color: #006A50;
+    color: white;
+}
+.amount-card-type1{
+    background-color: #C6E4D6;
+}
+.amount-card-type1:hover{
+    background-color: #4d9f79;
+}
+form{
+    display: block;
+    justify-items: center;
+    align-items: center;
+    margin-top: 32px;
+    text-align: center;
+}
+input[type="text"]{
+    /* height: 50px; */
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    border: none;
+    border-radius: 16px;
+  }
+  .donate-btn{
+  align-items: center;
+  padding: 11px 20px;
+  margin-top: 25px;
+  cursor: pointer;
+  }
