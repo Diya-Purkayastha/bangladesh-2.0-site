@@ -183,11 +183,12 @@ body{
 .amount-card-type1:hover{
     background-color: #4d9f79;
 }
-form{
+.donate-form{
     display: block;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     margin-top: 32px;
+    flex-wrap: nowrap;
     text-align: center;
 }
 input[type="text"]{
@@ -199,11 +200,24 @@ input[type="text"]{
     border-radius: 16px;
   }
   .donate-btn{
-  align-items: center;
-  padding: 11px 20px;
-  margin-top: 25px;
-  cursor: pointer;
-  }
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    /* text-align: center; */
+   
+    padding: 11px 20px;
+    margin-top: 25px;
+ }
+ .donate-btn:hover{
+    background-color: #006a50cf;
+ }
+ .donate-btn:active{
+    background-color: #006a5062;
+ }
   /* newsletter style */
   .newsletter{
     height: 300px;
@@ -235,3 +249,4 @@ input[type="text"]{
     padding: 0 30px 0 30px;
     border-radius: 0px 10px 10px 0px;
   }
+  
