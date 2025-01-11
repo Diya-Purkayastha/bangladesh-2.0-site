@@ -50,7 +50,28 @@ body{
  main section{
     margin-top: 100px;
  }
+ /* header style */
+ header{
+   margin: 0 auto;
+ }
+ nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 300px;
 
+ }
+ .logo{
+   font-size: 32px;
+   color: #0E0E0E;
+   
+ }
+ .nav-btn{
+   padding: 15px 30px;
+   background-color: transparent;
+   border:1px solid #006A50;
+   color: #006A50;
+ }
  /* hero style */
  .hero{
     background-color: #C6E4D6;
@@ -61,6 +82,7 @@ body{
     gap: 65px;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
  }
 
  .hero-title{
@@ -166,10 +188,12 @@ body{
     margin: 25px 0px;
     /* width: 100%; */
 }
+
 .satellite-img img{
    border-radius: 24px;
    width: 408px;
    height: 306px;
+   
 }
 .satellite-title{
     font-size: 32px;
@@ -276,4 +300,29 @@ input[type="text"]{
     padding: 0 30px 0 30px;
     border-radius: 0px 10px 10px 0px;
   }
-  
+  /* footer section */
+  footer{
+   margin-top: 100px;
+   height: 220px;
+   background-color: #FFFFFF;
+   /* width: 100%; */
+   padding: 50px 160px;
+  }
+  .footer-title{
+   font-size: 32px;
+   color: #0E0E0E;
+   text-align: center;
+  }
+  .social-icons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin-top: 25px;
+  }
+  hr{
+   margin: 10px 0px;
+  }
+  .social-icons img{
+   width: 30px;
+  }
