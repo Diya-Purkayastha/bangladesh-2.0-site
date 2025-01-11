@@ -75,6 +75,33 @@ body{
     margin-top: 40px;
     padding:  17px 34px;
  }
+ /* quotation style */
+ .quotation{
+   border-radius: 16px;
+   background-color: #FFFFFF;
+   background-image: url("../assets/quote-bg.png");
+   background-repeat: no-repeat;
+   background-position: top left;
+   background-position-x: 47px;
+   background-position-y: 40px ;
+   background-size: 64px 64px;
+ }
+ .quotation-content{
+   padding: 48px 48px 0px 48px;
+   height: 250px;
+   display: block;
+   align-items: center;
+   justify-content: center;
+ }
+ .quotation-title{
+   font-size: 20px;
+   color: rgba(14, 14, 14, 0.80);
+   
+ }
+ .quotation-description1{
+   margin: 0px;
+   margin-top: -10px;
+ }
  /* vision of future style */
  .vision-card{
     width: 410px;
